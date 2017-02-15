@@ -1,24 +1,20 @@
-# SlimApp RESTful API
+# Customers RESTful API
 
-This is a RESTful api built with the SlimPHP framework and uses MySQL for storage.
-
-### Version
-1.0.0
-
-### Usage
+Простой REST API покупателей
 
 
-### Installation
+### Установка
 
-Create database or import from _sql/slimapp.sql
+Создайте новую базу данных и примените скрипт из sql/slimapp.sql
 
-Edit db/config params
+Отредактируйте файл подключение к БД ```src/config/db.php```
 
-Install SlimPHP and dependencies
+Устанавливаем composer зависимости
 
 ```sh
 $ composer
 ```
+
 ### API Endpints
 ```sh
 $ GET /api/customers
